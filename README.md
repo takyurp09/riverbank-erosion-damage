@@ -54,6 +54,10 @@ The repository includes a workflow diagram in `figures/selected/` to make the pu
 
 Raw data are not included. Several inputs are large geospatial rasters, external satellite products, or provider-hosted datasets. See `data/README.md` for data-source notes.
 
+## Google Earth Engine at Scale
+
+The GEE workflow is documented in `docs/GEE_WORKFLOW.md`, including the main Earth Engine products, export scripts, and downstream use of each exported layer.
+
 ## Installation
 
 ```bash
