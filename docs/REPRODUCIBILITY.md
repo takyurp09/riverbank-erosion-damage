@@ -64,6 +64,7 @@ Commit:
 - requirements files
 - configuration templates
 - small selected public figures
+- small selected public sample extracts
 
 Do not commit:
 
@@ -95,3 +96,9 @@ Use descriptive commits that reveal the research workflow:
 ## Public Portfolio Scope
 
 The public repository is intended to demonstrate remote-sensing, geospatial processing, economic damage accounting, and reproducible coding practice. It is not a full public release of all data products or manuscript materials.
+
+## Public Example Outputs
+
+The `examples/` directory contains small real-data extracts from processed outputs. These files are intentionally limited to a few rows so reviewers can see column names, units, and data-flow expectations without receiving raw geospatial files or full result tables.
+
+The `figures/selected/` directory contains a curated set of public visuals. See `docs/VISUAL_GALLERY.md` for figure notes.

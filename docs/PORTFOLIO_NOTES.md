@@ -22,5 +22,6 @@ Satellite-based riverbank erosion and economic damage-accounting workflow.
 - The code is organized by export, processing, and analysis stages.
 - The GEE workflow spans water, population, buildings, night lights, cropland, climate, and ecosystem layers.
 - Raw data and generated outputs are intentionally excluded.
+- Selected figures and sample extracts are curated for public review.
 - The method is reusable across river systems, even though the current documentation includes a Bangladesh case study.
 - The repository shows version-control discipline through documentation, `.gitignore`, and staged public outputs.

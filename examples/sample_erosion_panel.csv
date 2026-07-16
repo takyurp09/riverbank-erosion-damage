@@ -1,0 +1,4 @@
+upazila_pcode,district_name,upazila_name,year,erosion_gross_ha_calibrated,erosion_share,river_reach_id,discharge_anomaly_pct,D_total_asset_usd
+BD10040009,Barguna,Amtali,1990,0.4605,0.000015,41118548,19.7693,23818.68
+BD10040019,Barguna,Bamna,1990,0.2634,0.000026,41103608,,25089.18
+BD10040028,Barguna,Barguna Sadar,1990,1.5678,0.000042,41118548,19.7693,156869.04

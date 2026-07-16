@@ -45,6 +45,9 @@ temp/
 !figures/selected/**
 !figures/selected/*.svg
 !figures/selected/*.png
+!examples/
+!examples/**
+!examples/*.csv
 
 # Local environments and caches
 .env
