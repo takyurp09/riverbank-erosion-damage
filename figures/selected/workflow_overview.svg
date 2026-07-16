@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">Riverbank erosion damage-accounting workflow</title>
+  <desc id="desc">A workflow diagram showing satellite imagery and exposure layers flowing through erosion detection, panel construction, damage accounting, and analysis outputs.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f8fb; }
+      .box { fill: #ffffff; stroke: #22314d; stroke-width: 2; rx: 8; }
+      .rs { fill: #eef8f9; stroke: #196b75; stroke-width: 2; rx: 8; }
+      .geo { fill: #f0f7ed; stroke: #2f6b38; stroke-width: 2; rx: 8; }
+      .econ { fill: #fff4e8; stroke: #9a5a05; stroke-width: 2; rx: 8; }
+      .ana { fill: #eef3ff; stroke: #315f9f; stroke-width: 2; rx: 8; }
+      .title { font: 700 27px Arial, sans-serif; fill: #182235; }
+      .label { font: 700 17px Arial, sans-serif; fill: #182235; }
+      .text { font: 14px Arial, sans-serif; fill: #2d3748; }
+      .small { font: 12px Arial, sans-serif; fill: #4a5568; }
+      .arrow { stroke: #22314d; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#22314d" />
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="540" />
+  <text class="title" x="60" y="55">Riverbank Erosion Damage Accounting</text>
+  <text class="small" x="60" y="84">Reusable workflow for satellite-based erosion detection, exposure measurement, and economic loss accounting.</text>
+
+  <rect class="rs" x="55" y="135" width="215" height="180" />
+  <text class="label" x="78" y="168">Remote Sensing</text>
+  <text class="text" x="78" y="202">Landsat / Sentinel-2</text>
+  <text class="text" x="78" y="226">JRC Global Surface Water</text>
+  <text class="text" x="78" y="250">Night lights</text>
+  <text class="text" x="78" y="274">WorldPop / GHSL</text>
+
+  <rect class="geo" x="325" y="135" width="215" height="180" />
+  <text class="label" x="348" y="168">Erosion Processing</text>
+  <text class="text" x="348" y="202">Water classification</text>
+  <text class="text" x="348" y="226">Persistence rule</text>
+  <text class="text" x="348" y="250">Gross / net erosion</text>
+  <text class="text" x="348" y="274">River-reach assignment</text>
+
+  <rect class="econ" x="595" y="135" width="215" height="180" />
+  <text class="label" x="618" y="168">Damage Accounting</text>
+  <text class="text" x="618" y="202">Land value</text>
+  <text class="text" x="618" y="226">Structures</text>
+  <text class="text" x="618" y="250">Displacement</text>
+  <text class="text" x="618" y="274">Ecosystem services</text>
+
+  <rect class="ana" x="865" y="135" width="250" height="180" />
+  <text class="label" x="888" y="168">Analysis</text>
+  <text class="text" x="888" y="202">Administrative-year panel</text>
+  <text class="text" x="888" y="226">Driver regressions</text>
+  <text class="text" x="888" y="250">Robustness checks</text>
+  <text class="text" x="888" y="274">Scenario accounting</text>
+
+  <path class="arrow" d="M270 225 H325" />
+  <path class="arrow" d="M540 225 H595" />
+  <path class="arrow" d="M810 225 H865" />
+
+  <rect class="box" x="170" y="385" width="260" height="95" />
+  <text class="label" x="194" y="418">Version Control</text>
+  <text class="text" x="194" y="446">Scripts and docs are committed</text>
+  <text class="text" x="194" y="468">Data and outputs stay out of Git</text>
+
+  <rect class="box" x="470" y="385" width="260" height="95" />
+  <text class="label" x="494" y="418">Reproducibility</text>
+  <text class="text" x="494" y="446">Run order documented by stage</text>
+  <text class="text" x="494" y="468">Dependencies listed in requirements</text>
+
+  <rect class="box" x="770" y="385" width="260" height="95" />
+  <text class="label" x="794" y="418">Public Portfolio</text>
+  <text class="text" x="794" y="446">Reusable method, case-study docs</text>
+  <text class="text" x="794" y="468">No raw rasters or result tables</text>
+</svg>

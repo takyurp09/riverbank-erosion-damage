@@ -1,0 +1,65 @@
+# Raw and processed data
+data/*
+!data/README.md
+!data/sample/
+!data/sample/**
+output/
+outputs/
+results/
+logs/
+tmp/
+temp/
+
+# Large geospatial/scientific data
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.rds
+*.RData
+*.nc
+*.hdf
+*.h5
+*.tif
+*.tiff
+*.vrt
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.gpkg
+*.geojson
+*.osm.pbf
+*.zip
+
+# Generated figures and manuscripts
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.docx
+*.html
+*.tex
+!figures/selected/
+!figures/selected/**
+!figures/selected/*.svg
+!figures/selected/*.png
+
+# Local environments and caches
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.Rhistory
+.Rproj.user/
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
