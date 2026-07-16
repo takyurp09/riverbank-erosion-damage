@@ -46,9 +46,15 @@ The repository is written as a generic methodological template. The included doc
 5. **Analysis and uncertainty**  
    Generate descriptive summaries, driver regressions, heterogeneity tests, robustness checks, scenario accounting, and Monte Carlo damage intervals.
 
-## Selected Figure
+## Selected Figures
 
-The repository includes a workflow diagram in `figures/selected/` to make the public portfolio easy to scan. Full generated figures, maps, and result tables are intentionally excluded unless explicitly curated for public release.
+The repository includes a small set of public-facing visuals in `figures/selected/` to make the public portfolio easy to scan:
+
+- workflow overview
+- gross versus net erosion diagnostic
+- DSAS-style shoreline retreat diagnostic
+
+Full generated maps, damage figures, and result tables are intentionally excluded unless explicitly curated for public release.
 
 ## Data
 

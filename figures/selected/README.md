@@ -5,6 +5,8 @@ This folder contains public-facing visuals for the repository.
 Included:
 
 - `workflow_overview.svg`: high-level workflow from satellite imagery to erosion panels and economic damage accounting.
+- `gross_vs_net_erosion.png`: example physical erosion diagnostic comparing gross land loss with net loss after accretion.
+- `dsas_retreat_rate_by_river_system.png`: example DSAS-style shoreline retreat diagnostic by river system.
 
 Not included:
 
