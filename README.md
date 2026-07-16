@@ -51,6 +51,7 @@ The repository is written as a generic methodological template. The included doc
 The repository includes a small set of public-facing visuals in `figures/selected/` to make the public portfolio easy to scan:
 
 - workflow overview
+- conceptual damage-accounting framework
 - gross versus net erosion diagnostic
 - DSAS-style shoreline retreat diagnostic
 

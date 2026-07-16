@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+  <title id="title">Riverbank erosion damage-accounting framework</title>
+  <desc id="desc">A conceptual framework linking satellite water transitions to persistent land loss, administrative-unit panels, economic damage channels, uncertainty, and policy outputs.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .title { font: 700 30px Arial, sans-serif; fill: #152033; }
+      .subtitle { font: 14px Arial, sans-serif; fill: #526072; }
+      .section { font: 700 17px Arial, sans-serif; fill: #1f2937; }
+      .label { font: 700 16px Arial, sans-serif; fill: #172033; }
+      .text { font: 13px Arial, sans-serif; fill: #334155; }
+      .small { font: 12px Arial, sans-serif; fill: #64748b; }
+      .rs { fill: #e9f8fb; stroke: #0f6674; stroke-width: 2; rx: 10; }
+      .geo { fill: #edf8ef; stroke: #247043; stroke-width: 2; rx: 10; }
+      .econ { fill: #fff4e6; stroke: #a45a00; stroke-width: 2; rx: 10; }
+      .unc { fill: #f5efff; stroke: #6b46a3; stroke-width: 2; rx: 10; }
+      .out { fill: #eef4ff; stroke: #315f9f; stroke-width: 2; rx: 10; }
+      .mini { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.5; rx: 7; }
+      .arrow { stroke: #24324a; stroke-width: 2.6; fill: none; marker-end: url(#arrow); }
+      .thin { stroke: #64748b; stroke-width: 1.8; fill: none; marker-end: url(#arrow2); }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#24324a" />
+    </marker>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M2,2 L8,5 L2,8 Z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1280" height="760" />
+  <text class="title" x="64" y="58">Riverbank Erosion Damage-Accounting Framework</text>
+  <text class="subtitle" x="64" y="86">From satellite-observed water transitions to policy-relevant economic loss accounts.</text>
+
+  <rect class="rs" x="64" y="135" width="230" height="150" />
+  <text class="section" x="88" y="166">1. Satellite Evidence</text>
+  <rect class="mini" x="88" y="188" width="182" height="28" />
+  <text class="text" x="102" y="207">Landsat / Sentinel-2</text>
+  <rect class="mini" x="88" y="226" width="182" height="28" />
+  <text class="text" x="102" y="245">JRC water history</text>
+  <rect class="mini" x="88" y="264" width="182" height="28" />
+  <text class="text" x="102" y="283">Dry-season composites</text>
+
+  <rect class="geo" x="365" y="135" width="230" height="150" />
+  <text class="section" x="389" y="166">2. Physical Erosion</text>
+  <rect class="mini" x="389" y="188" width="182" height="28" />
+  <text class="text" x="403" y="207">Land-to-water transition</text>
+  <rect class="mini" x="389" y="226" width="182" height="28" />
+  <text class="text" x="403" y="245">Persistence rule</text>
+  <rect class="mini" x="389" y="264" width="182" height="28" />
+  <text class="text" x="403" y="283">Gross and net erosion</text>
+
+  <rect class="out" x="666" y="135" width="230" height="150" />
+  <text class="section" x="690" y="166">3. Spatial Panel</text>
+  <rect class="mini" x="690" y="188" width="182" height="28" />
+  <text class="text" x="704" y="207">Administrative unit-year</text>
+  <rect class="mini" x="690" y="226" width="182" height="28" />
+  <text class="text" x="704" y="245">River-reach assignment</text>
+  <rect class="mini" x="690" y="264" width="182" height="28" />
+  <text class="text" x="704" y="283">Quality checks</text>
+
+  <rect class="econ" x="967" y="135" width="250" height="150" />
+  <text class="section" x="991" y="166">4. Damage Channels</text>
+  <rect class="mini" x="991" y="188" width="92" height="28" />
+  <text class="text" x="1005" y="207">Land</text>
+  <rect class="mini" x="1100" y="188" width="92" height="28" />
+  <text class="text" x="1114" y="207">Structures</text>
+  <rect class="mini" x="991" y="232" width="92" height="28" />
+  <text class="text" x="1005" y="251">Displacement</text>
+  <rect class="mini" x="1100" y="232" width="92" height="28" />
+  <text class="text" x="1114" y="251">Ecosystem</text>
+
+  <path class="arrow" d="M294 210 H365" />
+  <path class="arrow" d="M595 210 H666" />
+  <path class="arrow" d="M896 210 H967" />
+
+  <rect class="econ" x="165" y="390" width="260" height="150" />
+  <text class="section" x="189" y="421">Valuation Inputs</text>
+  <text class="text" x="189" y="453">Night lights and land value proxies</text>
+  <text class="text" x="189" y="479">Building footprints and unit costs</text>
+  <text class="text" x="189" y="505">Population exposure and migration costs</text>
+  <text class="text" x="189" y="531">Soil carbon, mangroves, cropland</text>
+
+  <rect class="unc" x="510" y="390" width="260" height="150" />
+  <text class="section" x="534" y="421">Uncertainty and Robustness</text>
+  <text class="text" x="534" y="453">Sensor comparison</text>
+  <text class="text" x="534" y="479">Persistence-rule sensitivity</text>
+  <text class="text" x="534" y="505">Alternative valuation methods</text>
+  <text class="text" x="534" y="531">Monte Carlo intervals</text>
+
+  <rect class="out" x="855" y="390" width="260" height="150" />
+  <text class="section" x="879" y="421">Policy Outputs</text>
+  <text class="text" x="879" y="453">Erosion hotspots</text>
+  <text class="text" x="879" y="479">Damage component accounts</text>
+  <text class="text" x="879" y="505">Hydroclimatic drivers</text>
+  <text class="text" x="879" y="531">Adaptation relevance</text>
+
+  <path class="thin" d="M1092 285 C1092 340, 295 335, 295 390" />
+  <path class="thin" d="M1092 285 C1092 350, 640 340, 640 390" />
+  <path class="thin" d="M1092 285 C1092 350, 985 340, 985 390" />
+
+  <rect class="geo" x="180" y="625" width="920" height="58" />
+  <text class="label" x="218" y="660">Version-control boundary:</text>
+  <text class="text" x="430" y="660">commit scripts, workflow docs, and selected figures; keep raw rasters, generated panels, and full result tables outside Git.</text>
+</svg>
