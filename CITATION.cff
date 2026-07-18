@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the research project associated with this repository."
+title: "Satellite-Based Riverbank Erosion and Economic Damage Accounting"
+type: software
+authors:
+  - family-names: Tahmid
+    given-names: Muhammad Taky
+year: 2026
+license: MIT
+repository-code: "https://github.com/takyurp09/riverbank-erosion-damage"

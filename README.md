@@ -1,8 +1,23 @@
 # Riverbank Erosion Damage Accounting
 
+[![Status: Active Research](https://img.shields.io/badge/status-active%20research-1f6f8b)](#public-release-scope)
+[![Python](https://img.shields.io/badge/Python-geospatial-3776AB?logo=python&logoColor=white)](scripts/)
+[![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-remote%20sensing-4285F4)](docs/GEE_WORKFLOW.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+**Muhammad Taky Tahmid**
+
+This repository is the public research companion to:
+
+> Tahmid, M. T. (2026). *Satellite-Based Riverbank Erosion and Economic Damage Accounting*. Research project in progress.
+
 This repository contains a reproducible geospatial research pipeline for measuring riverbank erosion and translating observed land loss into economic damage accounts. The workflow combines satellite-derived erosion detection, administrative-unit aggregation, exposure layers, asset valuation, hydroclimatic drivers, and uncertainty analysis.
 
 The repository is written as a generic methodological template. The included documentation uses Bangladesh as a case-study application, but the workflow is designed to be adapted to other river systems and delta regions.
+
+## Research Question
+
+How can repeated satellite observations of riverbank change be translated into transparent, spatially explicit accounts of land loss, exposed assets, displacement risk, cropland damages, and ecosystem-service losses?
 
 ## What This Demonstrates
 
@@ -96,3 +111,13 @@ See `docs/REPRODUCIBILITY.md` for the suggested run order and version-control ru
 ## Public-Release Scope
 
 This is a public code-portfolio version of an active research workflow. It includes scripts and documentation that demonstrate the methods, but excludes raw data, generated panels, manuscript drafts, and full unpublished result tables.
+
+## Citation and Contact
+
+Please cite:
+
+> Tahmid, M. T. (2026). *Satellite-Based Riverbank Erosion and Economic Damage Accounting*. Research project in progress.
+
+Muhammad Taky Tahmid<br>
+University of Delaware<br>
+[tahmid@udel.edu](mailto:tahmid@udel.edu)
